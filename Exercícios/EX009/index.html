@@ -4,30 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte / Pré-formatação</h2>
-    <p>O comando <code>document.getElementById('teste')</code>  é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-    num = int(input("Digite um número: "))
-    if num % 2 == 0:
-        print(f"o número {num} é par")
-    else:
-        print(f"O número {num} é ímpar")
-    print("Fim do programa")
-        </code>
-    </pre>
-    <h2>Citações</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
-    <h2>Citações completas</h2>
-    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
-    <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
-        A diferença entre elementos inline e um bloco de texto é importante. os elementos HTML neste capítulo descrevem os blocos de texto.
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="Hyper texto markup language">HTML</abbr>  e <abbr title="Cascading Style Sheets">CSS</abbr> . Estou adorando!</p>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Ligar para o Mariscleudo</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+
+    </ol>
+
+    <h2>Listas não ordenadas</h2>
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="A">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="A" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>PS2</li>
+        <ul type="square">
+            <li>GTA San Andreas</li>
+            <ul type="circle">
+                <li>Não joguei online</li>
+            </ul>
+            <li>Bomba Patch</li>
+            <li>Resident Evil</li>
+        </ul>
+        <li>Xbox 360</li>
+        <ul type="square">
+            <li>Midnight Club</li>
+            <li>GTA V</li>
+            <li>Fifa</li>
+        </ul>
+        <li>Xbox One</li>
+        <ul type="square">
+            <li>Forza 7</li>
+            <li>Fifa</li>
+            <li>Red Dea Redemption 2</li>
+        </ul>
+    </ol>
+
+    <h2>Listas de definição</h2>
+    <dl>
+        <dt>Termo: HTML</dt>
+        <dd>Descrição: Linguagem de marcação para a criação do conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a ciração de interatividade de um site</dd>
+    </dl>
+    
 </body>
 </html>
