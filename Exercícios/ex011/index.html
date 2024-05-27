@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias in HTML5</title>
+</head>
+<body>
+    <h1>Dinamic images</h1>
+    <p>Try opening this website in different devices or just zoom in and zoom out your browser</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Dinamic size image">
+        
+    </picture>
+
+    <h1>Playing audio</h1>
+    <p>We're going to learn to play an audio on HTML5</p>
+    <audio preload="metadata" src="midia/happy-mistake.mp3" controls ></audio>
+    <!-- MP3 WAV OGG-->
+    <video src="midia/video.mp4" controls width="500"></video>
+    
+</body>
+</html>
