@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image</title>
+</head>
+<body>
+    <h1>Responsive Image</h1>
+    <p>You're seeing the whole image? Try changing the size of the web window</p>
+
+    <picture>
+        <source media="(max-width: 400px)" srcset="imagens/paisagem-p.png">
+        <source media="(max-width: 850px)" srcset="imagens/paisagem-m.png">
+        <img src="imagens/paisagem-g.png" alt="Landscape image">
+
+    </picture>
+    
+</body>
+</html>
