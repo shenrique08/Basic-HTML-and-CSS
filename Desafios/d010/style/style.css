@@ -1,3 +1,7 @@
+/*
+    Configurações globais em CSS
+*/
+
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -9,6 +13,7 @@
 }
 
 
+/* Variáveis em CSS */
 :root {
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -22,6 +27,9 @@
     --font-android: 'Android', 'cursive';
 }
 
+
+
+/* Seletor universal (configurações aplicadas a todo o documento)*/
 * {
     margin: 0px;
     padding: 0px;
@@ -150,7 +158,7 @@ main h2 {
 }
 
 main img {
-    width: 100%;
+    width: 100%;margin: 0px;
 }
 
 main img.pequena {
