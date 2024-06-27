@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        table {
+            width: 350px;
+            border-collapse: collapse;
+        }
+
+        tr {
+            background-color: aquamarine;
+        }
+
+        td {
+            text-align: center;
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        tr.linha {
+            background-color: rgba(0, 0, 255, 0.468);
+        }
+    </style>
+</head>
+<body>
+    <h1>My first table</h1>
+    <!--
+        Table Hierarchy
+
+        Table
+            Table Row
+                Table Header
+                Table Data
+    -->
+    <table>
+        <tr class="linha"> <!-- First Row-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+
+        <tr>
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+
+        <tr>
+            <td>A5</td>
+            <td>B6</td>
+        </tr>
+
+        <tr>
+            <td>A6</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
