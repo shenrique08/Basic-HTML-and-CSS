@@ -23,7 +23,7 @@ Here you will find the challenges proposed during the course. These challenges a
 This section contains small projects that I developed on my own. Each project addresses different functionalities and techniques of HTML5 and CSS3, allowing a deeper and practical exploration of the concepts learned.
 All mini-projects are deployed on GitHub Pages.
 ## Deployed mini-projects
-https://shenrique08.github.io/drummond_webpage.github.io/
+https://shenrique08.github.io/drummond_webpage.github.io/ <br>
 https://shenrique08.github.io/senna_history.gitbhub.io/
 
 ## How to Use
