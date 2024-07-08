@@ -1,16 +1,16 @@
 # HTML5 and CSS3
 
-This repository contains materials and projects related to the study of HTML5 and CSS3. It is organized into three main directories: **Exercises**, **Desafios/Challenges**, and **Mini-projects**.
+This repository contains materials and projects related to the study of HTML5 and CSS3. It is organized into three main directories: **Exercícios/Exercises**, **Desafios/Challenges**, and **Mini-projects**.
 
 ## Repository Structure
 
-- **Exercises**: Contains exercises completed as part of the HTML5 and CSS3 course by Professor Gustavo Guanabara.
+- **Exercícios/Exercises**: Contains exercises completed as part of the HTML5 and CSS3 course by Professor Gustavo Guanabara.
 - **Desafios/Challenges**: Includes challenges proposed during the course to test and apply the acquired knowledge.
 - **Mini-projects**: Small projects developed by me to practice and explore different aspects of HTML5 and CSS3.
 
 ## Directory Descriptions
 
-### Exercises
+### Exercícios/Exercises
 
 This folder contains the exercises that follow the curriculum of the HTML5 and CSS3 course by Professor Gustavo Guanabara. They are designed to reinforce the content taught in each lesson.
 
@@ -21,6 +21,10 @@ Here you will find the challenges proposed during the course. These challenges a
 ### Mini-projects
 
 This section contains small projects that I developed on my own. Each project addresses different functionalities and techniques of HTML5 and CSS3, allowing a deeper and practical exploration of the concepts learned.
+All mini-projects are deployed on GitHub Pages.
+## Deployed mini-projects
+https://shenrique08.github.io/drummond_webpage.github.io/
+https://shenrique08.github.io/senna_history.gitbhub.io/
 
 ## How to Use
 
@@ -30,7 +34,7 @@ This section contains small projects that I developed on my own. Each project ad
     ```
 2. Navigate to the desired directory:
     ```bash
-    cd HTML5-and-CSS3/Exercises
+    cd HTML5-and-CSS3/mini-projects
     ```
 3. Open the files in your preferred code editor to explore and study.
 
