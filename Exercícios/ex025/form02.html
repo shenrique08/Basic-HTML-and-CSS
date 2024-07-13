@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        div#botao {
+            padding-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Form test</h1>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <div>
+            <label for="iusu">User:</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="user">
+        </div>
+
+        <div id="senha">
+            <label for="isen">Password: </label>
+            <input type="password" name="sen" id="isen" required minlength="8" placeholder="Min 8 caracters">
+        </div>
+
+        <div id="botao">
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+
+    
+</body>
+</html>
