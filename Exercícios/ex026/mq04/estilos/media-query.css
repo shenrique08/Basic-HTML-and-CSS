@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+
+/* Todas as demais mídias */
+
+/* Typical Device Breakpoints
+
+    Mobile devices – 320px — 480px.
+
+    iPads, Tablets – 481px — 768px.
+
+    Small screens, laptops – 769px — 1024px.
+
+    Desktops, large screens – 1025px — 1200px.
+
+    Extra large screens, TV – 1201px, and more.
+
+*/
+
+@media print {
+    body {
+        background-image: url(../../imagens/back-print.jpg); /* desnecessário */
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+
+    #smartphone, #tablet, #pc, #tv {
+        display: none;
+    }
+
+    #print {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-image: url(../../imagens/back-tablet.jpg);
+    }
+
+    #smartphone, #print, #pc, #tv {
+        display: none;
+    }
+
+    #tablet {
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    body {
+        background-image: url(../../imagens/back-pc.jpg);
+    }
+
+    #smartphone, #print, #tablet, #tv {
+        display: none;
+    }
+
+    #pc {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    body {
+        background-image: url(../../imagens/back-tv.jpg);
+
+    }
+
+    main {
+        width: 1000px;
+    }
+
+    #smartphone, #print, #tablet, #pc {
+        display: none;
+    }
+
+    #tv {
+        display: block;
+    }
+    
+}
