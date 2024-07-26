@@ -29,7 +29,7 @@ menu {
 span.material-symbols-outlined {
     display: block;
     text-align: center;
-    background-color: darkblue;
+    background-color: rgba(18, 18, 130, 0.578);
     color: white;
     padding: 10px;
     cursor: pointer;
@@ -50,8 +50,8 @@ menu a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgba(96, 175, 239, 0.208);
-    color: white;
+    background-color: rgba(40, 99, 147, 0.652);
+    color: aliceblue;
     text-align: center;
     border-top: 2px solid rgba(118, 118, 217, 0.303);
 }
