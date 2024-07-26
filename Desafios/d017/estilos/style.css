@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores
+    #C13F99
+    #6A2473
+    #331F40
+
+*/
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #6A2473;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(77, 0, 81, 0.356);
+
+    transition: width 0.25s, height 0.25s;
+    transition-timing-function: ease;
+}
+
+
+div#imagem {
+    display: block;
+    background: #6A2473 url(../imagens/pexels-tuesday-temptation-190692-3780104.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+
+}
+
+div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+form > div.campo {
+    height: 35px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > span {
+    color: white;
+    width: 30px;
+    padding: 5px;
+    background-color: #9836a5;
+    font-size: 1.5em
+}
+
+div.campo > input {
+    font-size: 1em;
+    height: 100%;
+    border-radius: 8px;
+    padding: 5px;
+    color: #6A2473;
+    padding-top: 8px;
+}
+
+form {
+    font-size: smaller;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+form > input[type=submit], form > a.botao {
+    margin-top: 9px;
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 35px;
+    background-color: #331f40ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0.8px 0.8px 0px rgba(0, 0, 0, 0.379)
+}
+
+form > input[type=submit]:hover, form > a.botao:hover {
+    background-color: #331f40ea;
+
+}
+
+a > span.material-symbols-outlined {
+    font-size: medium ;
+}
+
+
+
