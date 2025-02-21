@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY HTML</title>
+
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(235, 243, 249);
+            text-align: center;
+            padding: 15px;
+        }
+
+        li {
+            text-align: justify;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            font-style: italic;
+            color: blueviolet;
+        }
+
+        a:hover {
+            color: blue;
+            background-color: aliceblue;
+        }
+
+        h2 {
+           font-family: Arial, Helvetica, sans-serif;
+           background-color: rgb(216, 234, 250); 
+        }
+
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(206, 216, 246);
+        }
+
+        h4 {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(145, 198, 244);
+        }
+
+        p {
+            font-family: 'Courier New', Courier, monospace;
+            text-align: justify;
+        }
+
+        .teste {
+            height: 20px;
+        }
+
+        #divTest {
+            font-size: larger;
+            font-family: 'Courier New', Courier, monospace;
+            color: blueviolet;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Meu título H1</h1>
+    <ul>
+        <li><a href="#">example1</a></li>
+        <li><a href="#">example2</a></li>
+        <li><a href="#">example3</a></li>
+    </ul>
+    <h2>Subtítulo H2</h2>
+    <p>Lorem <strong><a href="https://www.youtube.com/watch?v=4gXdJhXS-DY&list=PLbIBj8vQhvm00J3f3rD33tRuNLem8EgEA&index=5" target="_blank"><img class="teste" src="https://t4.ftcdn.net/jpg/03/04/06/01/360_F_304060171_OUUSKIITlOLRgnDI1EFO8eSZqOHab6Iq.jpg" alt="logo youtube"></a></strong> ipsum dolor sit, amet <strong>consectetur</strong> adipisicing elit. Praesentium, pariatur eaque! Esse voluptate vel blanditiis labore expedita facere rem dolorum ea <em>tempore</em> qui nemo dolores in, id mollitia perspiciatis reiciendis Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eius amet exercitationem? Tempora, vitae <q>dolores</q> numquam placeat non totam hic beatae maiores dolor, quidem impedit amet laboriosam praesentium illo at.. </p>
+    <hr>
+    <h3>Subtítulo H3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum eveniet facilis, <del>ipsum</del> <ins>inpummim</ins> sunt voluptate quos quibusdam. Itaque, blanditiis ab vel beatae, obcaecati harum facere iusto facilis quo molestias quisquam temporibus!</p>
+    <hr>
+    <h4>Subtítulo H4</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta architecto sapiente voluptates dolorem rem eligendi nemo atque dolore. Earum aut facilis incidunt perspiciatis, repellendus at laborum qui in dolorem neque!</p>
+    <hr>
+
+    <pre>
+        <code>
+            import java.util.Random;
+
+            public class RandomNumbers {
+                public static void main(String[] args) {
+                    Random random = new Random();
+                    
+                    System.out.println("10 Random Numbers:");
+                    for (int i = 0; i < 10; i++) {
+                        int number = random.nextInt(100); // Generates a random number between 0 and 99
+                        System.out.println(number);
+                    }
+                }
+            }
+
+        </code>
+    </pre>
+
+    <div id="divTest"> div is like a block</div>
+    
+</body>
+
+</html>
