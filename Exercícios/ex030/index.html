@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        nav {
+            background-color: rgba(0, 255, 255, 0.259);
+            height: 50px;
+
+        }
+
+        nav > ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav > ul > li > a {
+            background-color: aliceblue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: rgb(0, 255, 123);
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <nav> 
+        <ul>
+            <li><a href="#">Home</a></li>
+        </ul>
+    
+        <ol type="A">
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+    
+        <dl>
+            <dt>Cofee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Tea</dt>
+            <dd>Hot drink</dd>
+        </dl>
+    </nav>
+    
+</body>
+</html>
