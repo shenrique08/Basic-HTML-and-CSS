@@ -13,11 +13,11 @@ body {
 
 }
 
-.comunity-notes a {
+#community-notes a, section a {
     text-decoration: none;
     color: darkblue;
 }
 
-.comunity-notes a:hover {
+#community-notes a:hover, section a:hover {
     text-decoration: underline;
 }
