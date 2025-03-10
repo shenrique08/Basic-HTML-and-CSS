@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Course Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Course Landing Page</h1>
+    </header>
+    <section>
+        <form action="this will be sent to the server">
+            <div class="container">
+                <div id="div-course-title">
+                    <label for="course-title">Course Title: </label>
+                    <input type="text" name="course-title" id="course-title" required >
+                </div>
+                <div id="div-course-description">
+                    <label for="course-description">Course Description: </label>
+                    <br>
+                    <textarea name="course-description" id="course-description" rows="15" cols="30" required>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis consequatur quasi vero soluta labore, ut perferendis eum quae libero, velit incidunt quos minus quo dolorem deserunt nostrum ex in beatae!</textarea>
+                </div>
+                <div id="div-skill-level">
+                    <label for="skill-level">Skill Level: </label>
+                    <select name="select-skill-level" id="skill-level" required>
+                        <option value="beg-level">Beginner Level</option>
+                        <option value="adv-level">Advanced Level</option>
+                        <option value="all-level">All Levels</option>
+                    </select>
+                </div>
+                <div id="div-submit">
+                    <label for="div-submit">Ready to publis the course?  </label>
+                    <input type="checkbox" name="checkbox" id="checkbox" required>
+                </div>
+                <button>Submit</button>
+            </div>
+
+        </form>
+    </section>
+
+    <footer>
+        <hr>
+        <p>
+            <a href="https://github.com/shenrique08">github.com/shenrique08</a>
+        </p>
+    </footer>
+    
+</body>
+</html>

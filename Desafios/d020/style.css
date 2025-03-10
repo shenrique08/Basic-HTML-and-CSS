@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+}
+
+
+h1 {
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+
+.container {
+    display: flexbox;
+    margin: 15px;
+}
+
+#div-course-description, #div-course-title, #div-skill-level, #div-submit {
+    margin-bottom: 12px;
+}
+
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
