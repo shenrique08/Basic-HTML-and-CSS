@@ -1,0 +1,27 @@
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 80px;
+}
+
+h2 {
+    font-size: 50px;
+    color: purple;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 35px;
+    font-family: "Passion One", sans-serif;
+    font-weight: lighter;
+    color: lightpink;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 40px;
+    line-height: 80px;
+    letter-spacing: 10px;
+    text-shadow: magenta 10px -10px 2px;
+}
