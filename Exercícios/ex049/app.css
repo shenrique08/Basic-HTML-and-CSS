@@ -1,0 +1,9 @@
+.box {
+    border: 2px solid orchid;
+    height: 500px;
+    width: 700px;
+    background-image: url(images/people.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
