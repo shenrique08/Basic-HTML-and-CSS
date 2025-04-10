@@ -1,0 +1,19 @@
+.box {
+   width: 200px;
+   height: 200px;
+   background-color: rgba(0, 255, 255, 0.528);
+   border: 2px solid black;
+   display: inline-block;
+
+}
+
+.box-middle {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-color: lightyellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
