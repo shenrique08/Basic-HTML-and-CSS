@@ -1,9 +1,10 @@
 .box {
     border: 2px solid orchid;
-    height: 500px;
-    width: 700px;
-    background-image: url(images/people.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: 300px;
+    width: 500px;
+    background-image: linear-gradient(to top ,#C02425, #F0CB35);
+}
+
+.box p {
+    color: white;
 }
