@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    background: radial-gradient(#0288d1, #01579b);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    position: relative;
+    background-image: linear-gradient(rgb(88, 88, 255), lightblue);
+}
+
+
+.badge {
+    background-color: #4caf50;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -10px;
+
+}
