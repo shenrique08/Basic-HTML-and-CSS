@@ -5,15 +5,16 @@ h1 {
 }
 .container {
     border: 3px solid black;
-    width: 500px;
+    width: 800px;
     margin: 40px auto;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .box {
     width: 150px;
-    height: 60px;
+    height: auto;
     font-size: 3rem;
     text-align: center;
 }
