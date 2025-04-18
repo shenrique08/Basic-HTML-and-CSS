@@ -6,15 +6,17 @@ h1 {
 .container {
     border: 3px solid black;
     width: 800px;
+    height: 400px;
     margin: 40px auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
     width: 150px;
-    height: auto;
+    height: 240px;
     font-size: 3rem;
     text-align: center;
 }
