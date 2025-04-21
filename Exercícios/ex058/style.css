@@ -1,0 +1,15 @@
+
+
+
+.container {
+    background-color: aqua;
+    display: flex;
+}
+
+
+.container > .item {
+    border: 1px solid darkblue;
+    background-color: aliceblue;
+    flex: auto;
+    text-align: center;
+}
