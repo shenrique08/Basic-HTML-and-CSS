@@ -43,6 +43,7 @@ https://shenrique08.github.io/senna_history.gitbhub.io/
 - [HTML5 and CSS3 Course - Gustavo Guanabara](https://www.cursoemvideo.com/curso/html5-css3/)
 - [HTML5 Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS3 Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [The HTML & CSS Bootcamp 2025 Edition] (https://www.udemy.com/course/html-and-css-bootcamp/)
 
 ## Contribution
 
