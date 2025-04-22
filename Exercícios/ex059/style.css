@@ -1,0 +1,25 @@
+body {
+    background-color: lightcoral;
+}
+
+
+@media (max-width: 800px) {
+    body {
+        background-color: lightcyan;
+    }
+
+    h1 {
+        color: darkblue;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    h1 {
+        color: rgb(255, 0, 0);
+    }
+}

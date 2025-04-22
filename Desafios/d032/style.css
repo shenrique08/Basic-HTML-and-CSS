@@ -1,0 +1,17 @@
+h1 {
+    font-size: 3em;
+}
+
+@media (min-width: 800px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    h1 {
+        font-size: 7em;
+    }
+}
+

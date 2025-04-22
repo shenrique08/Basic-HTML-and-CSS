@@ -4,12 +4,15 @@
 .container {
     background-color: aqua;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
 }
 
 
 .container > .item {
     border: 1px solid darkblue;
     background-color: aliceblue;
-    flex: auto;
     text-align: center;
 }
