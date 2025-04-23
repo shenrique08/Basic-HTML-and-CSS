@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header, footer {
+    background-color: lightskyblue;
+    height: 150px;
+}
+
+
+
+article {
+    background-color: lightsalmon;
+    height: 300px;
+}
+
+aside {
+    background-color: lightyellow;
+    height: 300px;
+}
+
+
+
+@media (min-width: 1000px) {
+    main {
+        display: flex;
+    }
+    
+    article {
+        flex: 1 1 60%;
+    }
+
+    aside {
+        flex: 1 1 40%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    main {
+        display: flex;
+    }
+    
+    article {
+        flex: 1 1 80%;
+    }
+
+    aside {
+        flex: 1 1 20%;
+    }
+}

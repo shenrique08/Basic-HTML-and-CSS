@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+
+
+.nav-bar {
+    display: flex;
+    background-color: lightskyblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.nav-bar h1 {
+    font-size: 1.8em;
+}
+
+
+.nav-bar a {
+    color: black;
+    font-size: 1.2em;
+    margin: 0 10px;
+}
+
+.nav-bar .links {
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 532px) {
+    .nav-bar {
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .nav-bar a {
+        color: black;
+        font-size: 0.8em;
+        margin: 0 8px;
+    }
+
+    .nav-bar h1 {
+        font-size: 1.6em;
+        margin-bottom: 10px;
+    }
+}
